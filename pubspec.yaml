@@ -1,7 +1,6 @@
 name: flutter_clean_architecture_template
-description: "A reusable Flutter template for Clean Architecture apps."
+description: "Reusable Flutter clean architecture template"
 publish_to: 'none'
-
 version: 1.0.0+1
 
 environment:
@@ -10,12 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.8
-  provider: ^6.4.0
-  go_router: ^13.2.0
-  dio: ^5.4.0
+  provider: ^6.1.2
+  go_router: ^14.2.0
+  dio: ^5.7.0
   flutter_secure_storage: ^9.2.0
   logging: ^1.2.0
+
+  cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:
